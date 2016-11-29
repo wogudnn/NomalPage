@@ -7,7 +7,7 @@
 			class="com.ktdsuniv.normal.board.service.impl.BoardServiceImpl">
 		<property name="boardBiz" ref="boardBiz"/>		
 	</bean>
-
+	
 	<bean	id="boardBiz"
 			class="com.ktdsuniv.normal.board.biz.impl.BoardBizImpl">
 		<property name="boardDao" ref="boardDao"/>		
